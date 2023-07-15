@@ -32,7 +32,6 @@ gridEngineHeadless.create(tilemap, {
   characterCollisionStrategy: CollisionStrategy.BLOCK_ONE_TILE_AHEAD,
 });
 
-
 const asciiRenderer = new AsciiRenderer("content", gridEngineHeadless, tilemap);
 asciiRenderer.render();
 
